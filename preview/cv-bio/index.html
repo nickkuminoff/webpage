@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Nicolai V. Kuminoff — CV / Bio</title>
+<meta name="description" content="Biography and curriculum vitae of Nicolai V. Kuminoff, Professor of Economics at Arizona State University.">
+<style>
+:root {
+  --bg: #ffffff;
+  --text: #1f2430;
+  --muted: #5c6470;
+  --accent: #8c1d40;
+  --rule: #e3e1dc;
+  --chip-bg: #f4f2ee;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #15171c;
+    --text: #e8e6e1;
+    --muted: #9aa1ab;
+    --accent: #e49ab0;
+    --rule: #2e323a;
+    --chip-bg: #22252c;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #15171c;
+  --text: #e8e6e1;
+  --muted: #9aa1ab;
+  --accent: #e49ab0;
+  --rule: #2e323a;
+  --chip-bg: #22252c;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 17px/1.6 Georgia, 'Times New Roman', serif;
+}
+.wrap { max-width: 48rem; margin: 0 auto; padding: 0 16px 4rem; }
+nav {
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--rule);
+  margin-bottom: 2.2rem;
+}
+nav a { color: var(--muted); text-decoration: none; margin-right: 1.4rem; text-transform: uppercase; }
+nav a:hover { color: var(--accent); }
+nav a.here { color: var(--text); font-weight: 600; }
+h1 { font-size: 2rem; font-weight: normal; margin: 0 0 1.4rem; }
+.bio { display: flex; gap: 2rem; align-items: flex-start; }
+.bio img { width: 180px; height: auto; border-radius: 4px; flex: 0 0 auto; }
+.bio p { margin: 0 0 1rem; }
+.cv-btn {
+  display: inline-block;
+  margin-top: 0.6rem;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+  text-decoration: none;
+  border: 1px solid var(--accent);
+  border-radius: 3px;
+  padding: 0.45rem 1rem;
+}
+.cv-btn:hover { background: var(--accent); color: var(--bg); }
+footer { margin-top: 3.5rem; padding-top: 1rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (max-width: 560px) {
+  .bio { flex-direction: column; gap: 1.2rem; }
+  .bio img { width: 140px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<nav>
+  <a href="../">Home</a>
+  <a href="./" class="here">CV / Bio</a>
+</nav>
+
+<h1>CV / Bio</h1>
+
+<div class="bio">
+  <img src="../../assets/photo.png" alt="Nicolai Kuminoff">
+  <div>
+    <p>Nick Kuminoff is a Professor in the Department of Economics at Arizona State University and a
+    Research Associate at the National Bureau of Economic Research. His research focuses on
+    environmental economics. Professor Kuminoff&rsquo;s work has been funded by the National Science
+    Foundation, the US Environmental Protection Agency and the National Institutes of Health, and
+    published in journals such as the <em>American Economic Review</em>, <em>Review of Economic
+    Studies</em>, <em>International Economic Review</em>, <em>Journal of Economic Literature</em>,
+    <em>Journal of Environmental Economics and Management</em>, <em>Journal of Econometrics</em>,
+    <em>Review of Environmental Economics and Policy</em>, <em>Land Economics</em> and
+    <em>Journal of Urban Economics</em>.</p>
+    <p>He holds a Ph.D. in Economics from North Carolina State University (2006) and MS (2000) and
+    BS (1999) degrees from the University of California-Davis. He was previously an Assistant
+    Professor at Virginia Tech.</p>
+    <a class="cv-btn" href="../../cv_kuminoff.pdf">Curriculum Vitae</a>
+  </div>
+</div>
+
+<footer>&copy; Nicolai V. Kuminoff</footer>
+
+</div>
+</body>
+</html>
